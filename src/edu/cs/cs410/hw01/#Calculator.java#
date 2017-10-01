@@ -1,0 +1,38 @@
+package edu.umb.cs.cs410.hw01;
+
+public class Calculator {
+
+	public Calculator() {
+	}
+
+	public int multiply(int x, int y) {
+		return x*y;
+	}
+
+    public int multiply(int x, int y) {
+	return x*y;
+    }
+
+	public int divide(int x, int y) {
+		return x/y;
+	}
+
+	public int subtract(int x, int y) {
+		return x-y;
+	}
+
+	public int add(int x, int y) {
+		return x+y;
+	}
+
+	public static void main(String[] args) {
+
+		Calculator calc = new Calculator();
+
+		System.out.println("3 times 4 is: " + calc.multiply(3, 4));
+		System.out.println("25 divided by 5 is: " + calc.divide(25, 5));
+		System.out.println("7 plus 6 is: " + calc.add(7, 6));
+		System.out.println("15 minus 3 is: " + calc.subtract(15, 3));
+	}
+
+}
